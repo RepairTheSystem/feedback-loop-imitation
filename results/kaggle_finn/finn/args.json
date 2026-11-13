@@ -1,0 +1,36 @@
+{
+ "path": "/root/.cache/huggingface/hub/datasets--simeneide--recsys_slates_dataset/snapshots/acac1e8a2f086619a3f86242e3485b3b6069d496/data/data.npz",
+ "stub": false,
+ "n_users": 300000,
+ "top_items": 20000,
+ "n_eval": [
+  20000,
+  30000
+ ],
+ "seeds": [
+  0,
+  1
+ ],
+ "variants": [
+  "all",
+  "organic",
+  "all-matched",
+  "alpha-0.25",
+  "alpha-0.5",
+  "ips-true",
+  "ips-est",
+  "imitator",
+  "imitator-imp"
+ ],
+ "select": "organic",
+ "k": 10,
+ "max_len": 20,
+ "dim": 64,
+ "layers": 2,
+ "max_epochs": 60,
+ "patience": 3,
+ "batch": 256,
+ "lr": 0.001,
+ "out": "results/finn",
+ "device": "cuda"
+}

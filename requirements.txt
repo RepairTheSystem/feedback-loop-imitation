@@ -1,0 +1,8 @@
+torch
+numpy
+pandas
+pyarrow
+huggingface_hub
+matplotlib
+tabulate
+nbformat

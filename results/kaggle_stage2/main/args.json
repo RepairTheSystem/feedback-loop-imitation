@@ -1,0 +1,40 @@
+{
+ "policy": [
+  "good",
+  "skewed"
+ ],
+ "lam": [
+  0.0,
+  0.5,
+  1.0
+ ],
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "n_users": 4000,
+ "variants": [
+  "all",
+  "organic",
+  "all-matched",
+  "alpha-0.25",
+  "alpha-0.5",
+  "ips-true",
+  "ips-est",
+  "imitator"
+ ],
+ "select": "organic",
+ "window": 7.0,
+ "k": 10,
+ "max_len": 50,
+ "dim": 64,
+ "layers": 2,
+ "max_epochs": 40,
+ "patience": 3,
+ "batch": 128,
+ "lr": 0.001,
+ "out": "results/main",
+ "online": true,
+ "device": "cuda"
+}

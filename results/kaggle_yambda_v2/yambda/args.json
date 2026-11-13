@@ -1,0 +1,30 @@
+{
+ "path": "/root/.cache/huggingface/hub/datasets--yandex--yambda/snapshots/4dcfdd370180347ac75f6ece07d76cac196e3da4/flat/50m/listens.parquet",
+ "n_users": null,
+ "top_items": 20000,
+ "train_tail": 300,
+ "seeds": [
+  0,
+  1
+ ],
+ "variants": [
+  "all",
+  "organic",
+  "all-matched",
+  "alpha-0.25",
+  "alpha-0.5",
+  "ips-est",
+  "imitator"
+ ],
+ "select": "organic",
+ "k": 10,
+ "max_len": 50,
+ "dim": 64,
+ "layers": 2,
+ "max_epochs": 60,
+ "patience": 3,
+ "batch": 128,
+ "lr": 0.001,
+ "out": "results/yambda",
+ "device": "cuda"
+}

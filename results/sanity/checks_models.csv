@@ -1,0 +1,7 @@
+check,result,detail
+"good, λ=0: при равном объёме рекомендованные события не хуже органики на правде",FAIL,true NDCG all-matched 0.648 vs organic 0.665
+"skewed, λ=1: all имитирует π0 — promo share заметно выше, чем у organic",PASS,all 0.182 vs organic 0.118 (база 0.10)
+"skewed, λ=1: organic лучше all на правде (CI > 0)",PASS,"Δ true NDCG +0.0142 [+0.0102, +0.0180]"
+"skewed, λ=1: IPS с истинными пропенсити лучше all на правде (CI > 0)",FAIL,"Δ true NDCG -0.0166 [-0.0207, -0.0127]"
+"good: имитатор ближе к π0, чем organic (overlap@10 с π0)",FAIL,imitator 0.117 vs organic 0.125
+"skewed: имитатор ближе к π0, чем organic (overlap@10 с π0)",PASS,imitator 0.070 vs organic 0.022

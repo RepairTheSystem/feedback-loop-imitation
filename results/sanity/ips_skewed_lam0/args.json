@@ -1,0 +1,31 @@
+{
+ "policy": [
+  "skewed"
+ ],
+ "lam": [
+  0.0
+ ],
+ "seeds": [
+  0
+ ],
+ "n_users": 2000,
+ "variants": [
+  "all",
+  "organic",
+  "all-matched",
+  "ips-true",
+  "ips-est"
+ ],
+ "select": "organic",
+ "window": 7.0,
+ "k": 10,
+ "max_len": 50,
+ "dim": 64,
+ "layers": 2,
+ "max_epochs": 30,
+ "patience": 3,
+ "batch": 128,
+ "lr": 0.001,
+ "out": "results/sanity/ips_skewed_lam0",
+ "device": "cpu"
+}

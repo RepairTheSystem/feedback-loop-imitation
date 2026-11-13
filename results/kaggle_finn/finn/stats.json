@@ -1,0 +1,12 @@
+{
+ "users": 300000.0,
+ "clicks (search+rec)": 3724340.0,
+ "rec share (clicks)": 0.2569647239510893,
+ "rec share (test)": 0.28763510928915503,
+ "catalog": 20000.0,
+ "catalog covers train clicks": 0.349672349515976,
+ "catalog covers test clicks": 0.2881394947344191,
+ "users evaluated": 295409.0,
+ "repeat share search": 0.09284592001780789,
+ "repeat share rec": 0.02762940114354495
+}

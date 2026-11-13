@@ -1,0 +1,12 @@
+{
+ "days": 1504.6293402777778,
+ "users": 9207.0,
+ "positives": 29370391.0,
+ "rec share (positives)": 0.5205270845730314,
+ "rec share (test day)": 0.3526312602192212,
+ "catalog": 20000.0,
+ "catalog covers train positives": 0.6521267625237944,
+ "catalog covers test positives": 0.426633561436444,
+ "repeat share organic": 0.7907568695953013,
+ "repeat share rec": 0.6027492392114016
+}
